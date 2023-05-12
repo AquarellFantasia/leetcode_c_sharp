@@ -1,2 +1,4 @@
 .vscode/
-app/
+app/.vscode/
+app/.config/
+app.csproj
