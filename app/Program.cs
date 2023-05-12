@@ -7,10 +7,13 @@ namespace MainNamespace
     {
         public static void Main(string[] args)
         {
-            int[] nums1 = new int[]{1,8,6,2,5,4,8,3,7};
-            int[] nums2 = new int[]{1,1};
-            Console.WriteLine("Answer is:" + C_11_Container_With_Most_Water.MaxArea(nums1) + " while expected: 49");
-            Console.WriteLine("Answer is:" + C_11_Container_With_Most_Water.MaxArea(nums2) + " while expected: 1");
+            TreeNode root = new TreeNode(3);
+            root.left = new TreeNode(9);
+            root.right = new TreeNode(20);
+            root.right.left = new TreeNode(15);
+            root.right.right = new TreeNode(7);
+            Console.WriteLine("Answer is:" + C_102_Binary_Tree_Level_Order_Traversal.LevelOrder(root) + " while expected: 1");
+            // Console.WriteLine("Answer is:" + C_102_Binary_Tree_Level_Order_Traversal.LevelOrder(root) + " while expected: 49");
         }
 
          public static string PrintArray(int[] arr){
