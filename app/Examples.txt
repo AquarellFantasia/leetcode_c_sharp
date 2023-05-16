@@ -1,7 +1,3 @@
-using System;
-using SolutionNamespace;
-
-namespace MainNamespace
 {
     class Examples
     {

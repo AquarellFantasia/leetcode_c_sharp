@@ -2,3 +2,5 @@
 app/.vscode/
 app/.config/
 app.csproj
+app/obj/
+app/bin/

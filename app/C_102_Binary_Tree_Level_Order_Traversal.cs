@@ -6,7 +6,8 @@ namespace SolutionNamespace{
             List<List<int>> ans = new List<List<int>>();
             Queue<TreeNode> q = new Queue<TreeNode>();
 
-            if (root != null){
+            if (root != null)
+            {
                 q.Enqueue(root);
             }
 

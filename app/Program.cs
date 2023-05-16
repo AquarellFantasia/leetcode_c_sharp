@@ -12,7 +12,7 @@ namespace MainNamespace
             root.right = new TreeNode(20);
             root.right.left = new TreeNode(15);
             root.right.right = new TreeNode(7);
-            Console.WriteLine("Answer is:" + C_102_Binary_Tree_Level_Order_Traversal.LevelOrder(root) + " while expected: 1");
+            Console.WriteLine("Answer is:" + C_111_Minimum_Depth_of_Binary_Tree.MinDepth(root) + " while expected: 3");
             // Console.WriteLine("Answer is:" + C_102_Binary_Tree_Level_Order_Traversal.LevelOrder(root) + " while expected: 49");
         }
 
