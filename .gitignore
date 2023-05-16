@@ -1,6 +1,5 @@
 .vscode/
 app/.vscode/
 app/.config/
-app/obj/
-app/bin/
 app.csproj
+*.dll
